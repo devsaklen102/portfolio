@@ -11,10 +11,10 @@ const items: Array<Education> = [
 		logo: Assets.Mits,
 		name: '',
 		organization: 'MITS',
-		period: { from: new Date(2023, 0), to: new Date(2026, 11) },
+		period: { from: new Date(2020, 0, 1), to: new Date(2022, 5, 1) },
 		shortDescription: '',
-		slug: 'dummy-education-item-2',
-		subjects: ['Linux', 'Python', 'Computer Architecture', 'Algorithms and Data structures']
+		slug: 'dummy-education-item',
+		subjects: ['C', 'Algorithm', 'Algebra', 'Python', 'C++', 'Java', 'English']
 	},
 	{
 		degree: 'Diploma of Computer Science & Engg.',
@@ -23,10 +23,10 @@ const items: Array<Education> = [
 		logo: Assets.Jut,
 		name: '',
 		organization: 'JUT, Ranchi',
-		period: { from: new Date(2017, 0), to: new Date(2020, 11) },
+		period: { from: new Date(2023, 0, 1) },
 		shortDescription: '',
-		slug: 'dummy-education-item',
-		subjects: ['C', 'Algorithm', 'Algebra', 'Python', 'C++', 'Java', 'Internet']
+		slug: 'dummy-education-item-2',
+		subjects: ['Assembly', 'Rust', 'Computer Architecture', 'Algorithms and Data structures']
 	}
 ];
 
