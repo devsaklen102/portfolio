@@ -5,24 +5,24 @@ const title = 'Education';
 
 const items: Array<Education> = [
 	{
-		degree: 'B.Tech in Computer Science & Engg.',
+		degree: 'Bachelor degree of Computer Science',
 		description: '',
-		location: 'Bhopal',
-		logo: Assets.Mits,
+		location: 'Tunisia',
+		logo: Assets.Unknown,
 		name: '',
-		organization: 'MITS',
+		organization: 'ISTIC',
 		period: { from: new Date(2020, 0, 1), to: new Date(2022, 5, 1) },
 		shortDescription: '',
 		slug: 'dummy-education-item',
 		subjects: ['C', 'Algorithm', 'Algebra', 'Python', 'C++', 'Java', 'English']
 	},
 	{
-		degree: 'Diploma of Computer Science & Engg.',
+		degree: 'PhD of Computer Science',
 		description: '',
-		location: 'Jharkhand',
-		logo: Assets.Jut,
+		location: 'USA',
+		logo: Assets.Unknown,
 		name: '',
-		organization: 'JUT, Ranchi',
+		organization: 'MIT',
 		period: { from: new Date(2023, 0, 1) },
 		shortDescription: '',
 		slug: 'dummy-education-item-2',
