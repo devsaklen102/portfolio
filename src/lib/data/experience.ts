@@ -7,48 +7,34 @@ const title = 'Experience';
 const items: Array<Experience> = [
 	{
 		slug: 'open-sourcer',
-		company: 'Self-employed',
-		description: 'Creating awesome tools for developers.',
+		company: 'Birlasoft Limited.',
+		shortDescription: 'I was appointed as a Analyst at Birlasoft, a role that opened the door to a captivating world of technology. Here, I had the incredible opportunity to immerse myself in cutting-edge automation tools, explore the boundless possibilities of cloud computing, and embrace the transformative power of DevOps practices.',
 		contract: ContractType.SelfEmployed,
 		type: 'Software Development',
 		location: 'Home',
-		period: { from: new Date() },
-		skills: getSkills('ts', 'js'),
-		name: 'Open Source Developer',
+		period: { from: new Date('2022-05-09') },
+		skills: getSkills('AWS', 'Docker','Azure','GCP','JavaScript'),
+		name: 'Technical Analyst',
 		color: 'red',
 		links: [],
-		logo: Assets.Unknown,
-		shortDescription: 'Creating awesome tools for developers.'
+		logo: Assets.BSL
 	},
 	{
 		slug: 'software-freelance',
-		company: 'Self-employed',
-		description: 'Creating awesome applications for customers.',
+		company: 'GirlScript Foundation',
+		shortDescription: 'Appointed as a Mentor in the Uplift Project for “C and C++ Programming ” where I will be working towards guiding the team over assigning the tasks to the participants and help them with making the program run till the end.',
 		contract: ContractType.Freelance,
 		type: 'Software Development',
 		location: 'Home',
-		period: { from: new Date() },
-		skills: getSkills('svelte', 'ts', 'sass', 'css', 'html', 'js'),
-		name: 'Freelancer',
+		period: { from: new Date('2020-05-01'),
+			 to: new Date('2020-09-30')
+},
+		skills: getSkills('C','Cpp'),
+		name: 'Mentor at Uplift Project',
 		color: 'blue',
 		links: [],
-		logo: Assets.Unknown,
-		shortDescription: 'Creating awesome applications for customers.'
-	},
-	{
-		slug: 'software-freelance-junior',
-		company: 'Self-employed',
-		description: 'Creating awesome applications for customers.',
-		contract: ContractType.Freelance,
-		type: 'Software Development',
-		location: 'Home',
-		period: { from: new Date(2022, 0, 1), to: new Date() },
-		skills: getSkills('css', 'html', 'js'),
-		name: 'Junior Freelancer',
-		color: 'green',
-		links: [],
-		logo: Assets.Unknown,
-		shortDescription: 'Creating awesome applications for customers.'
+		logo: Assets.GSF
+		/*shortDescription: 'Creating awesome applications for customers.'*/
 	}
 ];
 
