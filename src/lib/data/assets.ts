@@ -69,7 +69,13 @@ const Assets = {
 	Jest: asset('jest.png'),
 	Unocss: asset('unocss.svg'),
 	Ruvy: asset('ruvy.svg'),
-	Postcss: asset('postcss.svg')
+	Postcss: asset('postcss.svg'),
+	Mits: asset('mits.jpeg'),
+	Jut: asset('jut.jpeg'),
+	GSF: asset('gsf.jpeg'),
+	Azure: asset('azure.jpeg'),
+	GCP: asset('gcp.png'),
+	BSL: asset('bsl.png')
 };
 
 export default Assets;
