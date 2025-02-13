@@ -11,12 +11,12 @@ const hero: {
 } = {
 	title: `${BaseData.fullName},`,
 	description:
-		'lorem ipsum dolor sit amet consectetur adipiscing elit sed do eiusmod tempor incididunt ut labore et dolore magna aliqua',
+		'I am a Google & Microsoft Azure Cloud Certified professional with a strong foundation in cloud technologies and IT support. Currently working as a Technical Analyst at Birlasoft, I specialize in troubleshooting, cloud solutions, and optimizing system performance.',
 	links: [
 		{ label: 'GitHub', href: 'https://github.com', icon: 'i-carbon-logo-github' },
-		{ label: 'LinkedIn', href: 'https://linkedin.com', icon: 'i-carbon-logo-linkedin' },
-		{ label: 'Twitter', href: 'https://twitter.com', icon: 'i-carbon-logo-twitter' },
-		{ label: 'Email', href: 'mailto:riadh.adrani@pm.me', icon: 'i-carbon-at' }
+		{ label: 'LinkedIn', href: 'https://www.linkedin.com/in/md-saklen/', icon: 'i-carbon-logo-linkedin' },
+		{ label: 'Instagram', href: 'https://www.instagram.com/mdsaklen02/', icon: 'i-carbon-logo-instagram' },
+		{ label: 'Email', href: 'mailto:dev.mdsaklen@hotmail.com', icon: 'i-carbon-at' }
 	]
 };
 
