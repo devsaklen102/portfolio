@@ -11,7 +11,7 @@ const items: Array<Education> = [
 		logo: Assets.Mits,
 		name: '',
 		organization: 'MITS',
-		period = { from: "", to: ""},
+		period: { from: new Date(), to: new Date() },
 		shortDescription: '',
 		slug: 'dummy-education-item-2',
 		subjects: ['Linux', 'Python', 'Computer Architecture', 'Algorithms and Data structures']
@@ -23,7 +23,7 @@ const items: Array<Education> = [
 		logo: Assets.Jut,
 		name: '',
 		organization: 'JUT, Ranchi',
-		period = { from: "", to: ""},
+		period: { from: new Date(), to: new Date() },
 		shortDescription: '',
 		slug: 'dummy-education-item',
 		subjects: ['C', 'Algorithm', 'Algebra', 'Python', 'C++', 'Java', 'Internet']
