@@ -55,10 +55,10 @@
 			</Tooltip>
 			<Tooltip openDelay={300}>
 				<TooltipTrigger>
-					<Muted className="flex flex-row items-center gap-2">
+					/*<Muted className="flex flex-row items-center gap-2">
 						<Icon icon="i-carbon-time" />
 						<div>{exactDuration}</div>
-					</Muted>
+					</Muted>*/
 					<TooltipContent side="bottom">Exact duration</TooltipContent>
 				</TooltipTrigger>
 			</Tooltip>
