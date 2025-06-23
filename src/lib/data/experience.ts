@@ -8,13 +8,13 @@ const items: Array<Experience> = [
 	{
 		slug: 'open-sourcer',
 		company: 'Birlasoft Limited.',
-		shortDescription: 'I was appointed as a Analyst at Birlasoft, a role that opened the door to a captivating world of technology. Here, I had the incredible opportunity to immerse myself in cutting-edge automation tools, explore the boundless possibilities of cloud computing, and embrace the transformative power of DevOps practices.',
+		shortDescription: 'Appointed as a Engineer at Birlasoft, a role that opened the door to a captivating world of technology. Here, I had the incredible opportunity to immerse myself in cutting-edge automation tools, explore the boundless possibilities of cloud computing, and embrace the transformative power of DevOps practices.',
 		contract: ContractType.SalariedEmployee,
 		type: 'Software Development',
 		location: 'Home',
 		period: { from: new Date('2022-05-09') },
 		skills: getSkills('AWS', 'Docker','Azure','GCP','JavaScript'),
-		name: 'Technical Analyst',
+		name: 'Engineer- Cloud & Infrastructure',
 		color: 'red',
 		links: [],
 		logo: Assets.BSL
