@@ -11,7 +11,7 @@ const hero: {
 } = {
 	title: `${BaseData.fullName},`,
 	description:
-		'I am a Google & Microsoft Azure Cloud Certified professional with a strong foundation in cloud technologies and IT support. Currently working as a Technical Analyst at Birlasoft, I specialize in troubleshooting, cloud solutions, and optimizing system performance.',
+		'A certified Cloud Professional with 3+ years of hands-on experience in cloud technologies and IT support, building a strong foundation for scalable growth. Currently working as a Cloud & Infrastructure Engineer at Birlasoft, driving cloud solutions and infrastructure excellence.',
 	links: [
 		{ label: 'GitHub', href: 'https://github.com', icon: 'i-carbon-logo-github' },
 		{ label: 'LinkedIn', href: 'https://www.linkedin.com/in/md-saklen/', icon: 'i-carbon-logo-linkedin' },
